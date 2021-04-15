@@ -47,12 +47,6 @@ public class WebDriverHelper {
             case BrowserType.IEXPLORE:
                 driver = new InternetExplorerDriver(optionsIE());
                 break;
-            // case BrowserType.EDGE:
-            //     driver = new EdgeDriver(optionsEdge());
-            //     break;
-            // case BrowserType.FIREFOX:
-            //     driver = new FirefoxDriver(optionsFirefox());
-            //     break;
             case BrowserType.CHROME:
             case BrowserType.GOOGLECHROME:
                 driver = new ChromeDriver(optionsGC(false));

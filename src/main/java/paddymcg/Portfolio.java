@@ -20,4 +20,11 @@ public class Portfolio {
         return driver.findElements(By.cssSelector("li.nav-item"));
     }
 
+    public WebElement aboutHeading(){
+        return driver.findElement(By.cssSelector("#about h2"));
+    }
+
+    public List<WebElement> aboutParagraphs(){
+        return driver.findElements(By.cssSelector(".about-me p"));
+    }
 }
